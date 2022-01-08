@@ -1,3 +1,4 @@
+![GitHub Dark](https://github.com/github-dark.png#gh-light-mode-only)
 # Professional README.md Generator
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 ##  <a name="Description">Description</a> 
@@ -37,28 +38,24 @@ Node.js must be installed on your machine.
   
 - Pressing <ENTER> submits your answer.  
 
-- To add a screenshot to any prompt, first create an `assets/images` folder in your repository and upload your screenshot to it. Then, using the relative filepath, add it to your README using the following syntax:
-
-- ```md
-- ![alt text](assets/images/screenshot.png)
-- ```
+- To add a screenshot to any prompt, first create an `assets/images` folder in your repository and upload your screenshot to it. Then, using the relative filepath, add it to your README using the following syntax: 
+```md ![alt text](./assets/images/```*screenshot-filename*```.png)```
 
 
 ## Credits
 
-Starter Code for Professional README.md:
+Starter Code for this Professional README.md project:
 (https://github.com/coding-boot-camp/potential-enigma)
 
 Tutorials:
-https://github.com/luong-komorebi/Markdown-Tutorial/blob/master/README.md
+Basic Writing and Formating Syntax
+https://docs.github.com/en/github/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax#styling-text
 
 ## License
 
 MIT License
 
 ## Badges
-
-![badmath](https://img.shields.io/github/languages/top/nielsenjared/badmath)
 
 Badges aren't _necessary_, per se, but they demonstrate street cred. Badges let other developers know that you know what you're doing. Check out the badges hosted by [shields.io](https://shields.io/). You may not understand what they all represent now, but you will in time.
 
@@ -70,7 +67,7 @@ If your project has a lot of features, consider adding a heading called "Feature
 
 ## Contributing
 
-The [Contributor Covenant](https://www.contributor-covenant.org/) 
+[Contributor Covenant](https://www.contributor-covenant.org/) 
 
 ## Tests
 

@@ -1,4 +1,4 @@
-![GitHub Dark](https://github.com/github-dark.png#gh-light-mode-only)
+
 # Professional README.md Generator
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 ##  <a name="Description">Description</a> 
@@ -77,5 +77,6 @@ Go the extra mile and write tests for your application. Then provide examples on
 
 GitHub Username:
 [GitHub Profile](https://github.com/trfina)
+![GitHub Dark](https://github.com/github-dark.png#gh-light-mode-only)
 
 Additional Questions?  Contact me at trfina@gmail.com

@@ -39,9 +39,9 @@ Node.js must be installed on your machine.
 
 - To add a screenshot to any prompt, first create an `assets/images` folder in your repository and upload your screenshot to it. Then, using the relative filepath, add it to your README using the following syntax:
 
-```md
-![alt text](assets/images/screenshot.png)
-```
+- ```md
+- ![alt text](assets/images/screenshot.png)
+- ```
 
 
 ## Credits
@@ -81,7 +81,4 @@ Go the extra mile and write tests for your application. Then provide examples on
 GitHub Username:
 [GitHub Profile](https://github.com/trfina)
 
-
-
-
-Additional
+Additional Questions?  Contact me at trfina@gmail.com

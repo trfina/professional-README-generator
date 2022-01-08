@@ -1,5 +1,5 @@
 # Professional README.md Generator
-
+![badmath](https://img.shields.io/github/languages/top/nielsenjared/badmath)
 ## Description 
 This project dynamically generates a professional README.md file using the Inquirer package.
 

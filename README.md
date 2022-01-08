@@ -1,7 +1,7 @@
 # Professional README.md Generator
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
-## Description 
-This project dynamically generates a professional README.md file using the Inquirer package.
+##  <a name="Description"></a> 
+This project dynamically generates a professional README.md file using the Inquirer package.  This README.md file was generated using this application.
 
 The link to the deployed application is here:
 
@@ -20,8 +20,12 @@ The link to the deployed application is here:
 
 Node.js must be installed on your machine.
 
-Inquirer package must be installed in the directory where your files are:
+The Inquirer Node package must be installed in the directory where your files are:
 (https://npmjs.com/package/inquirer)
+
+Once finished installing the Inquirer package, type
+```npm install```, then type
+```node index```, to begin the process of generating your README.md file!
 
 ## Usage 
 

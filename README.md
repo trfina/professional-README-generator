@@ -20,26 +20,29 @@ The link to the deployed application is here:
 
 Node.js must be installed on your machine.
 
-The Inquirer Node package must be installed in the directory where your files are:
+- The Inquirer Node package must be installed in the directory where your files are:
 (https://npmjs.com/package/inquirer)
 
-Once finished installing the Inquirer package, type
-```npm install```, then type
-```node index```, to begin the process of generating your README.md file!
+- Once finished installing the Inquirer package, type
+```npm install``` in the directory where files are.
+
+- You are now ready to generate your README.md file!
+
 
 ## Usage 
 
-Provide instructions and examples for use. Include screenshots as needed.
+- Enter ```node index``` to start the Professional README.md generator.
 
-To add a screenshot, create an `assets/images` folder in your repository and upload your screenshot to it. Then, using the relative filepath, add it to your README using the following syntax:
+- Use <SPACE> to separate lines or paragraphs for each prompt.
+  
+- Pressing <ENTER> submits your answer.  
+
+- To add a screenshot to any prompt, first create an `assets/images` folder in your repository and upload your screenshot to it. Then, using the relative filepath, add it to your README using the following syntax:
 
 ```md
 ![alt text](assets/images/screenshot.png)
 ```
-<!-- SCREENSHOTS to ADD:
-how to start program
-input screen
-final generated README.md file -->
+
 
 ## Credits
 

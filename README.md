@@ -1,6 +1,6 @@
 # Professional README.md Generator
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
-##  <a name="Description"></a> 
+##  <a name="Description">Description</a> 
 This project dynamically generates a professional README.md file using the Inquirer package.  This README.md file was generated using this application.
 
 The link to the deployed application is here:

@@ -1,26 +1,24 @@
-
-# Professional README.md Generator
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 ##  <a name="Description">Description</a> 
-This project dynamically generates a professional README.md file using the Inquirer package.  
+
+This project dynamically generates a professional README.md file using the Inquirer package.  This README.md file was generated using this application.
 
 The link to the deployed application is here:
 
-[Professional README.md Generator](https://github.com/trfina/professional-README-generator).
+[Repository for this Project](https://github.com/trfina.io/professional-README-generator)
+
+![Finished Mock Up]
 
 ## Table of Contents
-
 * [Installation](#installation)
 * [Usage](#usage)
 * [Contributing](#contributing)
+* [Tests](#tests)
 * [Credits](#credits)
 * [License](#license)
-
+* [Questions](#questions)
 
 ## Installation
-
-Node.js must be installed on your machine.
-
+Node.js must be installed on the machine and Inquirer Node package installed in the project folder
 - The Inquirer Node package must be installed in the directory where your files are.  You can find the installation package here:
 (https://npmjs.com/package/inquirer)
 
@@ -29,6 +27,15 @@ Node.js must be installed on your machine.
 
 You are now ready to generate your README.md file!
 
+## Usage
+node index.js will start the application.  Answer the prompts to generate the README.md file
+
+## Contributing
+[Contributor Covenant](https://www.contributor-covenant.org/) 
+    
+## Tests
+Go the extra mile and write tests for your application. Then provide examples on how to run them.
+    
 
 ## Usage 
 
@@ -66,22 +73,14 @@ https://docs.github.com/en/github/writing-on-github/getting-started-with-writing
 
 ## Features
 
-- If your project has a lot of features, consider adding a heading called "Features" and listing them there.
-
-
-## Contributing
-
-- [Contributor Covenant](https://www.contributor-covenant.org/) 
-
-## Tests
-
-- Go the extra mile and write tests for your application. Then provide examples on how to run them.
+- If your project has a lot of features, consider adding a heading called "Features" and listing them there
 
 ## Questions
 
 GitHub Username:
   
 - [GitHub Profile](https://github.com/trfina)
-- Additional Questions?  Contact me at finatammy@gmail.com
+- Additional Questions?  
+Contact me at finatammy@gmail.com
 
 This README was generated with ❤️ by Tammy Fina

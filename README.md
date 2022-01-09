@@ -1,4 +1,4 @@
-##  <a name="Description">Description</a> 
+##  Professional README.md Generator
 
 This project dynamically generates a professional README.md file using the Inquirer package.  This README.md file was generated using this application.
 

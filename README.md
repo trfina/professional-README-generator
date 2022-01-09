@@ -53,6 +53,8 @@ You are now ready to generate your README.md file!
 Basic Writing and Formating Syntax
 https://docs.github.com/en/github/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax#styling-text
 
+- GitHub users Imbingz and lukas-h for their markdown license badge projects 
+
 ## License
 - This application is covered under the following license: MIT License
   [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
@@ -81,3 +83,5 @@ GitHub Username:
   
 - [GitHub Profile](https://github.com/trfina)
 - Additional Questions?  Contact me at finatammy@gmail.com
+
+This README was generated with ❤️ by Tammy Fina

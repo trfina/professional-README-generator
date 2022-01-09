@@ -1,7 +1,9 @@
 const fs = require('fs');
 const inquirer = require('inquirer');
 const { listenerCount } = require('process');
+let year = new Date().getFullYear();
 
+// Inquirer creates prompts for the generated file
 const promptUser = () => 
   inquirer.prompt([
     {
@@ -118,17 +120,19 @@ const promptUser = () =>
     {
       type: 'input',
       name: 'badges',
-      message: 'You will be given information about badges in a README.md file.'
+      message: 'Enter any information about  GitHub Badges'
     },
     {
       type: 'input',
       name: 'features',
-      message: 'You will be given information about features in a README.md file.'
+      message: 'Enter any information about Features you would like to add.'
     }        
   ]);
 
 
-
+// This function takes the data from promptUser
+// new variables are created to assign license code and color for the license badges
+// in order to create the badges.  Only way I could do it ATM
 function generateREADME(data) {
   var licenseCode = '';
   var licenseColor = '';
@@ -148,11 +152,12 @@ function generateREADME(data) {
     else {
       return;
     };   
-
+    
+  //Processing Answers from Inquirer
   return`
 # ${data.title}
 
-[![License:](https://img.shields.io/badge/License-${licenseColor}.svg)](https://opensource.org/licenses/${licenseCode})
+[![license](https://img.shields.io/badge/License-${licenseColor}.svg)](https://opensource.org/licenses/${licenseCode})
 
 ## <a name="Description">Description</a>
 ${data.desc}
@@ -189,8 +194,7 @@ ${data.credits}
     
 ## License
 
-License Information:
-[![License: ${data.license}](https://img.shields.io/badge/License-${licenseColor}.svg)](https://opensource.org/licenses/${licenseCode})
+[![license](https://img.shields.io/badge/License-${licenseColor}.svg)](https://opensource.org/licenses/${licenseCode}/)
 
 ## Badges
 
@@ -204,9 +208,12 @@ ${data.github}
 Additional Questions?  Contact me at:
 ${data.email}
 
+<p align='center'><i>
+  This README was generated with ❤️ by ${data.name}
+  </i></p>
 `
 };
-
+//Take data from Inquirer promptUser  and create the README.md file
 promptUser()
   .then((data) => { 
     

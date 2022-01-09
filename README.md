@@ -84,4 +84,4 @@ GitHub Username:
 - [GitHub Profile](https://github.com/trfina)
 - Additional Questions?  Contact me at finatammy@gmail.com
 
-                                        This README was generated with ❤️ by Tammy Fina
+This README was generated with ❤️ by Tammy Fina

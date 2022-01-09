@@ -105,11 +105,26 @@ const promptUser = () =>
       message: 'Provide examples on how to run tests for your application, if any.'
     },
     {
+      type: 'input',
+      name: 'credits',
+      message: 'What resources helped you with this project?'
+    },
+    {
       type: 'list',
       name: 'license',
       message: 'Select a license for your project,if any.',
       choices: ['MIT','Apache 2.0','GNU GPL v2', 'Other']
-    }          
+    },
+    {
+      type: 'input',
+      name: 'badges',
+      message: 'You will be given information about badges in a README.md file.'
+    },
+    {
+      type: 'input',
+      name: 'features',
+      message: 'You will be given information about features in a README.md file.'
+    }        
   ]);
 
 
@@ -117,8 +132,6 @@ const promptUser = () =>
 function generateREADME(data) {
   var licenseCode = '';
   var licenseColor = '';
-  
-  console.log(data.license);
 
   if ((data.license) === 'MIT') { 
       licenseCode = 'MIT';
@@ -126,7 +139,7 @@ function generateREADME(data) {
     }
     else if ((data.license) === 'Apache 2.0') {
       licenseCode = 'Apache-2.0';
-      licenseColor = 'Apache-2.0-blue';
+      licenseColor = 'Apache_2.0-blue';
     }
     else if ((data.license) === 'GNU GPL v2') {
       licenseCode = 'gpl-2.0.en.html';
@@ -136,26 +149,19 @@ function generateREADME(data) {
       return;
     };   
 
-  console.log(licenseCode, licenseColor);
-
-  // console.log(data.name);
-  // console.log(data.license);
-  // console.log(data);
-  
-
   return`
 # ${data.title}
-${licenseCode}
-${licenseColor}
 
-## Description
+[![License:](https://img.shields.io/badge/License-${licenseColor}.svg)](https://opensource.org/licenses/${licenseCode})
+
+## <a name="Description">Description</a>
 ${data.desc}
+
 The link to the deployed application is here:
 
 [Repository for this Project](${data.repos})
 
-Example of finished product:
-![Finished Mock Up](./assets/images/testscreenshot.png)
+![Finished Mock Up]
 
 ## Table of Contents
 * [Installation](#installation)
@@ -176,14 +182,16 @@ ${data.usage}
 ${data.contribute}
     
 ## Tests
-${data.tests}
+${data.test}
     
 ## Credits
-${data.credit}
+${data.credits}
     
 ## License
-${data.license}
-    
+
+License Information:
+[![License: ${data.license}](https://img.shields.io/badge/License-${licenseColor}.svg)](https://opensource.org/licenses/${licenseCode})
+
 ## Badges
 
 ## Features
@@ -192,6 +200,7 @@ ${data.license}
 
 GitHub Username:
 ${data.github}
+
 Additional Questions?  Contact me at:
 ${data.email}
 

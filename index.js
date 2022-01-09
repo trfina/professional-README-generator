@@ -209,7 +209,7 @@ Additional Questions?  Contact me at:
 ${data.email}
 
 <p align='center'><i>
-  This README was generated with ❤️ by ${data.name}
+   @ ${year} This README was generated with ❤️ by ${data.name}
   </i></p>
 `
 };

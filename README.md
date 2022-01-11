@@ -27,7 +27,7 @@ Node.js must be installed on the machine and Inquirer Node package installed in 
 - Once finished installing the Inquirer package, type
 ```npm install``` in the directory where files are.
 
-You are now ready to generate your README.md file!
+You are now ready to generate your README file!
 
 ## Usage
 node index.js will start the application.  Answer the prompts to generate the README.md file

@@ -6,7 +6,7 @@ This project dynamically generates a professional README.md file using the Inqui
 
 The link to the deployed application is here:
 
-[Repository for this Project](https://github.com/trfina.io/professional-README-generator)
+[Repository for this Project](https://github.com/trfina/professional-README-generator)
 
 ![Finished Mock Up](./assets/images/prompts.png)
 
